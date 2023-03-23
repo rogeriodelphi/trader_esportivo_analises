@@ -1,2 +1,1 @@
-# trader_esportivo_analises
-trader_esportivo_analises
+# Análise de apostas feitas em ligas da Alemanha, Inglaterra e França.
