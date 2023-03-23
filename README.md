@@ -1,0 +1,2 @@
+# trader_esportivo_analises
+trader_esportivo_analises
