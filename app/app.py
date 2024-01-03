@@ -41,6 +41,9 @@ def load_data(league, season):
   data = pd.read_csv(url)
   return data 
 
-df =   load_data(selected_league, selected_season)
+df = load_data(selected_league, selected_season)
 
+st.subheader("Dataframe: "+selected_league)
+
+st.dataframe(df)
 
