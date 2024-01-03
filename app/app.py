@@ -6,7 +6,7 @@ st.title('Web App Football Data')
 
 st.sidebar.header('Leagues')
 
-selected_league = st.sidebar.selectbox('League', ['England', 'Germany', 'Italy', 'Spain', 'France'])
+selected_league = st.sidebar.selectbox('League', ['Inglaterra', 'Alemanha', 'Itália', 'Espanha', 'França'])
 
 st.sidebar.header('Season')
 selected_season = st.sidebar.selectbox('Season', ['2021/2022', '2020/2021', '2019/2020'])
@@ -15,15 +15,15 @@ selected_season = st.sidebar.selectbox('Season', ['2021/2022', '2020/2021', '201
 # webscraping Footeboll Data
 
 def load_data(league, season):
-  if selected_league == 'England':
+  if selected_league == 'Inglaterra':
           league = 'E0'
-  if selected_league == 'Germany':
+  if selected_league == 'Alemanha':
     league = 'D1'
-  if selected_league == 'Italy':
+  if selected_league == 'Itália':
     league = 'I1'
-  if selected_league == 'Spain':
+  if selected_league == 'Espanha':
     league = 'SP1'
-  if selected_league == 'France':
+  if selected_league == 'França':
     league = 'F1'
   
   if selected_season == '2021/2022':
