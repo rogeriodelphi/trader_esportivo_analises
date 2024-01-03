@@ -26,10 +26,6 @@ def load_data(league, season):
   if selected_league == 'France':
     league = 'F1'
   
-  if selected_season == '2023/2024':
-    season = '2024'
-  if selected_season == '2022/2023':
-    season = '2023'  
   if selected_season == '2021/2022':
     season = '2122'
   if selected_season == '2020/2021':
